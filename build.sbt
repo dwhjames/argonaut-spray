@@ -15,10 +15,10 @@ lazy val argonautSpray = project in file(".")
 name := "argonaut-spray"
 
 libraryDependencies ++= Seq(
-  "io.argonaut"        %%  "argonaut"     % "6.0.4" % "provided",
-  "io.spray"           %%  "spray-http"   % "1.3.1" % "provided",
-  "io.spray"           %%  "spray-httpx"  % "1.3.1" % "provided",
-  "com.typesafe.akka"  %%  "akka-actor"   % "2.3.4" % "provided"
+  "io.argonaut"         %%  "argonaut"    % "6.1-M4"  % "provided",
+  "io.spray"            %%  "spray-http"  % "1.3.1"     % "provided",
+  "io.spray"            %%  "spray-httpx" % "1.3.1"     % "provided",
+  "com.typesafe.akka"   %%  "akka-actor"  % "2.3.4"     % "provided"
 )
 
 bintray.Plugin.bintrayPublishSettings
